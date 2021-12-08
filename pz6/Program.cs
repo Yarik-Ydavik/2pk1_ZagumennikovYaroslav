@@ -6,7 +6,15 @@ namespace pz6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int a = 0;
+            int b = 1;
+            while (b < n + 1)
+            {
+                a = b;
+                b = a + b;
+            }
+            Console.WriteLine(b);
         }
     }
 }
