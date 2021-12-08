@@ -12,7 +12,7 @@ namespace pz8
             {
                 a[i] = RND.Next(0, 4);
             }
-            for (int b = 0; b <= 9; b++)
+            for (int b = 1; b <= 8; b++)
             {
                 if (a[b] == a[b + 1] || a[b] == a[b - 1])
                 {
