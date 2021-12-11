@@ -55,7 +55,7 @@ namespace pz_15_исправленная
             c = c - a - b;
             Console.WriteLine("Количество знаков препинания  {0}", a);
             Console.WriteLine("Количество цифр  {0}", b);
-            Console.WriteLine("Количество букв {0}", c);
+            Console.WriteLine("Количество букв  {0}", c);
         }
     }
 }
