@@ -51,11 +51,11 @@ namespace pz_15_исправленная
                 }
             }
             //вычесть из общего количества символов, цифры и знаки препинания
-            Console.WriteLine("Общее количество символов  {0}", c);
+            Console.WriteLine("Общее количество символов:  {0}", c);
             c = c - a - b;
-            Console.WriteLine("Количество знаков препинания  {0}", a);
-            Console.WriteLine("Количество цифр  {0}", b);
-            Console.WriteLine("Количество букв  {0}", c);
+            Console.WriteLine("Количество знаков препинания:  {0}", a);
+            Console.WriteLine("Количество цифр:  {0}", b);
+            Console.WriteLine("Количество букв: {0}", c);
         }
     }
 }
