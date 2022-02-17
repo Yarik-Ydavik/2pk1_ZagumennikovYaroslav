@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>PZ3_Zagumennikov_Yaroslav</AssemblyName>
+    <RootNamespace>PZ3_Zagumennikov_Yaroslav</RootNamespace>
+  </PropertyGroup>
+
+</Project>

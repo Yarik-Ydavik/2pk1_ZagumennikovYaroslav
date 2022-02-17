@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz 18", "pz 18\pz 18.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz 15 исправленная", "pz 15 исправленная\pz 15 исправленная.csproj", "{E501D610-474E-4BD2-A272-6F2F33C26AC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ2", "PZ2\PZ2.csproj", "{251D6CA2-2696-4AE0-9EBD-D05CE376B424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ3_Zagumennikov_Yaroslav", "PZ2\PZ3_Zagumennikov_Yaroslav.csproj", "{251D6CA2-2696-4AE0-9EBD-D05CE376B424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ3_FedorovSemyon", "PZ3_FedorovSemyon\PZ3_FedorovSemyon.csproj", "{438A24E0-ACA7-4F10-A603-85884E4DDB25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ3_FedorovSemyon", "PZ3_FedorovSemyon\PZ3_FedorovSemyon.csproj", "{438A24E0-ACA7-4F10-A603-85884E4DDB25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
