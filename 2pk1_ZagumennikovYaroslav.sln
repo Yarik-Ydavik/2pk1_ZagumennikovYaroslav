@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ3_Zagumennikov_Yaroslav",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ3_FedorovSemyon", "PZ3_FedorovSemyon\PZ3_FedorovSemyon.csproj", "{438A24E0-ACA7-4F10-A603-85884E4DDB25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_4_Zagumennikov_Yaroslav", "PZ_4_Zagumennikov_Yaroslav\PZ_4_Zagumennikov_Yaroslav.csproj", "{3C3972C1-4231-49C8-86C4-7801BA2CE3EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{438A24E0-ACA7-4F10-A603-85884E4DDB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{438A24E0-ACA7-4F10-A603-85884E4DDB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{438A24E0-ACA7-4F10-A603-85884E4DDB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3972C1-4231-49C8-86C4-7801BA2CE3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3972C1-4231-49C8-86C4-7801BA2CE3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3972C1-4231-49C8-86C4-7801BA2CE3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3972C1-4231-49C8-86C4-7801BA2CE3EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
