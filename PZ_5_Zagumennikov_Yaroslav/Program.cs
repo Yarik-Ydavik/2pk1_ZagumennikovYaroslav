@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PZ4_Zagumennikov_Yaroslav
+namespace PZ5_Zagumennikov_Yaroslav
 {
     class Program
     {
@@ -30,7 +30,7 @@ namespace PZ4_Zagumennikov_Yaroslav
                 patient.DatePostup = receiptData;
                 patient.Print();
             }
-            
+
 
             Console.WriteLine("");
             Patient.PrintStaticValue();

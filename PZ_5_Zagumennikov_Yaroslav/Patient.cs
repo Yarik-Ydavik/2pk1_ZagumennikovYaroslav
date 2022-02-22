@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PZ4_Zagumennikov_Yaroslav
+namespace PZ_5_Zagumennikov_Yaroslav
 {
     internal class Patient
     {
@@ -27,15 +27,15 @@ namespace PZ4_Zagumennikov_Yaroslav
                 {
                     Console.WriteLine($"\n Возраст должен быть в диапазоне от 1 до 82");
                 }
-                    
+
                 else
                 {
                     age = value;
                     if (value < 18) counterPatient18++;
                 }
-                    
+
             }
-            get 
+            get
             {
                 return age;
             }
@@ -119,7 +119,7 @@ namespace PZ4_Zagumennikov_Yaroslav
             {
                 if (value == "")
                 {
-                    _otch="Значение отсутствует";
+                    _otch = "Значение отсутствует";
                 }
 
                 else
@@ -139,7 +139,7 @@ namespace PZ4_Zagumennikov_Yaroslav
             {
                 if (value == "")
                 {
-                    _diagnos= "Значение отсутствует";
+                    _diagnos = "Значение отсутствует";
                 }
 
                 else
@@ -153,10 +153,10 @@ namespace PZ4_Zagumennikov_Yaroslav
                 return _diagnos;
             }
         }
-        public Patient(string name, string family, string otchestvo, string diagnos, DateTime birth) 
-        { 
-            Name = name; 
-            Family = family; 
+        public Patient(string name, string family, string otchestvo, string diagnos, DateTime birth)
+        {
+            Name = name;
+            Family = family;
             Otch = otchestvo;
             Diagnos = diagnos;
             _dataBirth = birth;
@@ -164,8 +164,8 @@ namespace PZ4_Zagumennikov_Yaroslav
         }
         public static void PrintStaticValue()
         {
-            Console.WriteLine ($" Количество пациентов, которые поступили вчера: {counterPatient}");
-            Console.WriteLine ($" Количество несовершеннолетних пациентов: {counterPatient18}");
+            Console.WriteLine($" Количество пациентов, которые поступили вчера: {counterPatient}");
+            Console.WriteLine($" Количество несовершеннолетних пациентов: {counterPatient18}");
         }
         public void Print()
         {
