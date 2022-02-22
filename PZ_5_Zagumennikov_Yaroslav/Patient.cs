@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -162,12 +162,17 @@ namespace PZ_5_Zagumennikov_Yaroslav
             _dataBirth = birth;
 
         }
+        public Patient(string name)
+        {
+            Name = name;
+
+        }
         public static void PrintStaticValue()
         {
             Console.WriteLine($" Количество пациентов, которые поступили вчера: {counterPatient}");
             Console.WriteLine($" Количество несовершеннолетних пациентов: {counterPatient18}");
         }
-        public void Print()
+        public void GetPatientInfo()
         {
             Console.WriteLine($" Имя: {_name} \n Фамилия: {_fam} \n Отчество: {_otch}\n Дата рождения: {_dataBirth}\n Дата поступления: {datePostup}\n Диагноз: {_diagnos}    ");
         }
