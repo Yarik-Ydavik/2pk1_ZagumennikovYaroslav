@@ -33,19 +33,21 @@ namespace PZ5_Zagumennikov_Yaroslav
                     patient.Age = ag;
                     patient.DatePostup = receiptData;
                     patient.GetPatientInfo();
+
+                    Console.WriteLine("Введите имя\n");
+                    string name = Console.ReadLine();
+                    Console.WriteLine("Результат лечения\n");
+                    string result = Console.ReadLine();
+                    DateTime oUrTime = DateTime.Now;
+                    string OUrTime = Convert.ToString(oUrTime);
+                    string RecoverData = Console.ReadLine();
+                    DateTime recoverData = DateTime.Parse(RecoverData == "" ? OUrTime : RecoverData);
+                    Console.WriteLine("");
+                    Patient.PrintStaticValue();
+                    var PAtient = new RecoveredPatient(Name, Fam, Otch, Diagnos, dateBirthday, result, recoverData);
+                    PAtient.GetPatientInfo();
+
                 }
-                Console.WriteLine("Введите имя\n");
-                string name = Console.ReadLine();
-                Console.WriteLine("Результат лечения\n");
-                string result = Console.ReadLine();
-                DateTime oUrTime = DateTime.Now;
-                string OUrTime = Convert.ToString(oUrTime);
-                string RecoverData = Console.ReadLine();
-                DateTime recoverData = DateTime.Parse(RecoverData == "" ? OUrTime : RecoverData);
-                Console.WriteLine("");
-                Patient.PrintStaticValue();
-                RecoveredPatient PAtient = new RecoveredPatient(result, recoverData, name);
-                PAtient.GetPatientInfo();
             }
             
         }

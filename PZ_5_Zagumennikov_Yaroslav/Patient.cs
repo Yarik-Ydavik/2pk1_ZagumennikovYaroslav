@@ -9,12 +9,12 @@ namespace PZ_5_Zagumennikov_Yaroslav
 {
     internal class Patient
     {
-        private string _name;
-        private string _fam;
-        private string _otch;
+        public string _name;
+        public string _fam;
+        public string _otch;
         public DateTime _dataBirth;
-        private DateTime datePostup;
-        private string _diagnos;
+        public DateTime datePostup;
+        public string _diagnos;
         public DateTime startDate = new DateTime(1940, 01, 01);
         public DateTime endDate = new DateTime(2022, 01, 01);
 
